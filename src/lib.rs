@@ -9,6 +9,8 @@ pub use ark_ff::{PrimeField,bytes::ToBytes};
 pub use ark_std::Zero;
 pub use ark_ff::biginteger::BigInteger256;
 pub use ark_ec::short_weierstrass_jacobian::GroupProjective;
+pub use ark_ec::ProjectiveCurve;
+
 #[allow(unused_imports)]
 use blst::*;
 
