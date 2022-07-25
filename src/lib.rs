@@ -7,6 +7,7 @@ pub use ark_bls12_377::{Fr, G1Affine};
 pub use ark_ec::AffineCurve;
 pub use ark_ff::PrimeField;
 pub use ark_std::Zero;
+pub use ark_ff::biginteger::BigInteger256;
 
 #[allow(unused_imports)]
 use blst::*;
