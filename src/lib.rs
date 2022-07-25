@@ -3,7 +3,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 pub use std::os::raw::c_void;
-pub use ark_bls12_377::{Fr, G1Affine};
+pub use ark_bls12_377::{Fr, G1Affine,::g1::Parameters};
 pub use ark_ec::AffineCurve;
 pub use ark_ff::PrimeField;
 pub use ark_std::Zero;
