@@ -5,7 +5,7 @@
 pub use std::os::raw::c_void;
 pub use ark_bls12_377::{Fr, G1Affine,g1::Parameters};
 pub use ark_ec::AffineCurve;
-pub use ark_ff::PrimeField;
+pub use ark_ff::{PrimeField,bytes::ToBytes};
 pub use ark_std::Zero;
 pub use ark_ff::biginteger::BigInteger256;
 pub use ark_ec::short_weierstrass_jacobian::GroupProjective;
