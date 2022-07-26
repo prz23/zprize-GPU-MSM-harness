@@ -10,7 +10,7 @@ pub use ark_std::Zero;
 pub use ark_ff::biginteger::BigInteger256;
 pub use ark_ec::short_weierstrass_jacobian::GroupProjective;
 pub use ark_ec::ProjectiveCurve;
-
+use ark_serialize::CanonicalSerialize;
 #[allow(unused_imports)]
 use blst::*;
 
