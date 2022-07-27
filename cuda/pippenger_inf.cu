@@ -158,6 +158,7 @@ RustError mult_pippenger_inf(RustContext<bucket_t, affine_t, scalar_t> *context,
         // Accumulate the final result
         ctx->pipp.accumulate(ctx->config, out[batches - 1], *accum_res);
 
+        delete ctx;
     } catch (const cuda_error& e) {
 #ifdef TAKE_RESPONSIBILITY_FOR_ERROR_MESSAGE
         return RustError{e.code(), e.what()};
